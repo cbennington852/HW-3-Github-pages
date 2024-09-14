@@ -36,7 +36,9 @@ a:link {
 ol {
     list-style-type: lower-roman;
 }
-
+ol li {
+    border-bottom: solid;
+}
 /* visited link */
 a:visited {
     color: grey;
@@ -71,6 +73,7 @@ progress{
     height: 50px;
     color: orange;
 }
+/* EXTRA CREDIT special effect */
 progress[value]::-webkit-progress-bar {
     width: 100%;
     height: 20px;
