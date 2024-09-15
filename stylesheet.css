@@ -107,11 +107,7 @@ body {
     min-height: 100%;
     background-color: black;
 }
-/*Text colors*/
-p,h2,h3,h4,label,strong,em {
-    color: whitesmoke;
-    font-family: monsanto;
-}
+
 
 .normal {
     color: whitesmoke;
@@ -145,14 +141,25 @@ header {
     z-index: 1; /* set higher z-index value */
 }
 
+/* EXTRA CREDIT custom font */
+/*Citation : https://sketchdeck.com/blog/combining-fonts/*/
+
 header h1 {
     float: left;
     text-align: center;
     padding: 12px;
     text-decoration: none;
-    font-size: 35px;
+    font-size: 45px;
     line-height: 25px;
     border-radius: 4px;
+    font-family: "Century Gothic", serif;
+
+}
+
+/*Text colors*/
+p,h2,h3,h4,label,strong,em {
+    color: whitesmoke;
+    font-family: sans-serif, "Times New Roman";
 }
 
 header div{
@@ -240,9 +247,7 @@ td{
 }
 
 /*One youtube tutorial later....*/
-/*
-Extra Credit :)
-*/
+/* EXTRA CREDIT special effect */
 #move {
     background: linear-gradient(
             to right,
